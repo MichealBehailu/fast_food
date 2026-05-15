@@ -1,16 +1,16 @@
+import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from "expo-router";
-import './globals.css'
-import {useFonts} from 'expo-font'
 import { useEffect } from "react";
+import './globals.css';
 
 
 export default function RootLayout() {
   const [fontsLoaded,error] = useFonts({ //to load the fonts 
-    'QuickSand-Bold': require('../assets/fonts/Quicksand-Bold.ttf'),
-    'QuickSand-Regular': require('../assets/fonts/Quicksand-Regular.ttf'),
-    'QuickSand-Medium': require('../assets/fonts/Quicksand-Medium.ttf'),
-    'QuickSand-SemiBold': require('../assets/fonts/Quicksand-SemiBold.ttf'),
-    'QuickSand-Light': require('../assets/fonts/Quicksand-Light.ttf'),
+    'Quicksand-Bold': require('../assets/fonts/Quicksand-Bold.ttf'),
+    'Quicksand-Regular': require('../assets/fonts/Quicksand-Regular.ttf'),
+    'Quicksand-Medium': require('../assets/fonts/Quicksand-Medium.ttf'),
+    'Quicksand-SemiBold': require('../assets/fonts/Quicksand-SemiBold.ttf'),
+    'Quicksand-Light': require('../assets/fonts/Quicksand-Light.ttf'),
   })
 
   useEffect(()=>{
