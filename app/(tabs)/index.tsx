@@ -12,7 +12,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { images, offers } from "@/constants";
 import cn from "clsx";
 import React, { Fragment } from "react";
-import "./globals.css";
+import "../globals.css";
 import CardButton from "@/components/CardButton";
 
 export default function Index() {
